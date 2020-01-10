@@ -6,8 +6,9 @@ class Hospede extends Model {
             name: DataTypes.STRING,
             email: DataTypes.STRING,
         }, {
-            sequelize
-        }, {TableName:'hospede'})
+            sequelize,
+            tableName: 'hospede',
+        })
     }
 }
 

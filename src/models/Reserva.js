@@ -10,10 +10,11 @@ class Reserva extends Model {
             sequelize 
         })
     }
-
+    /*
     static associate(models) { 
-        this.belongsTo(models.hospede, { foreignKey: 'user_id', as: 'user_hospede'})
+        this.belongsTo(models.Hospede, { foreignKey: 'user_id', as: 'user_hospede'})
     }
+    */
 }
 
 module.exports = Reserva 
