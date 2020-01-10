@@ -1,14 +1,14 @@
 const { Model, DataTypes } = require('sequelize')
 
-class Recepcionista extends Model {
+class Hospede extends Model {
     static init(sequelize) {
         super.init({
             name: DataTypes.STRING,
             email: DataTypes.STRING,
-        }, { 
-            sequelize 
-        })
+        }, {
+            sequelize
+        }, {TableName:'hospede'})
     }
 }
 
-module.exports = Recepcionista 
+module.exports = Hospede 
