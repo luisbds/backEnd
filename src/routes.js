@@ -1,7 +1,7 @@
 const express = require("express");
 const RecepController = require('./controllers/Recepcionista-controller.js')
 const HospeController = require('./controllers/Hospede-controller.js')
-const ReservaController = require('/controllers/Reserva-controller.js')
+const ReservaController = require('./controllers/Reserva-controller.js')
 
 const routes = express.Router();
 

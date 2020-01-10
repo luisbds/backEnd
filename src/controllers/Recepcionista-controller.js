@@ -1,4 +1,4 @@
-const Recep = require('../model/Recepcionista')
+const Recep = require('../models/Recepcionista')
 
 module.exports = {
     async store(req, res) {

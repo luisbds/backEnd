@@ -1,4 +1,4 @@
-const Hospede = require('../model/Hospede') 
+const Hospede = require('../models/Hospede') 
 
 module.exports = {
     async store(req, res) {
