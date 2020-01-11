@@ -1,6 +1,7 @@
 const Reserva = require('../models/Reserva')
+/*
 const Hospede = require('../models/Hospede')
-
+*/
 module.exports = {
     async store(req, res) {
         /*
@@ -18,8 +19,10 @@ module.exports = {
         const reserva = await Reserva.create({ 
             valor,
             data_Entrada,
-            data_Saida,
+            data_Saida
+            /*
             user_id,
+            */
         }) 
 
         return res.json(reserva) 

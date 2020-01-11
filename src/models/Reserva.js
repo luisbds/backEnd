@@ -7,7 +7,8 @@ class Reserva extends Model {
             data_Entrada: DataTypes.DATE,
             data_Saida: DataTypes.DATE,
         }, { 
-            sequelize 
+            sequelize,
+            tableName: 'reserva', 
         })
     }
     /*
